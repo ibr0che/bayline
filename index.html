@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <base target="_top" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bayline — Garage, organized.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <b>bayline.</b>
+        <small>A little order. A lot of possibility.</small>
+      </div>
+      <div class="header-actions">
+        <span id="connection">Loading…</span>
+        <button id="blogShortcut" class="header-blog" onclick="go('Blog')">
+          Blog
+        </button>
+      </div>
+    </header>
+
+    <nav id="nav"></nav>
+
+    <main>
+      <div id="message" role="status"></div>
+      <section id="view"><p>Loading your garage…</p></section>
+      <div class="foot">
+        Bayline · Public demonstration workspace · Use fictional records only.
+        Changes are shared with visitors.
+      </div>
+    </main>
+
+    <dialog id="modal"><div id="modalBody"></div></dialog>
+
+    <script src="photos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
