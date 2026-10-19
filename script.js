@@ -34,7 +34,7 @@ const seed = () => ({
       name: "2015 Toyota Highlander",
       customer: "C-001",
       plate: "DEMO101",
-      mileage: 72000,
+      mileage: 205000,
     },
     {
       id: "V-002",
@@ -45,7 +45,7 @@ const seed = () => ({
     },
     {
       id: "V-003",
-      name: "2024 Honda Civic (White)",
+      name: "2024 Honda Civic",
       customer: "C-003",
       plate: "DEMO103",
       mileage: 62000,
